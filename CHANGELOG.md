@@ -9,5 +9,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Rewrite the full module to fit OXID eShop 6.x
 
-[2.0.0]: https://github.com/FlorianPalme/OXID-Cronjob-Manager/tree/2.1.0
+[2.0.0]: https://github.com/proudcommerce/dk_recursivecats/tree/2.1.0
 
