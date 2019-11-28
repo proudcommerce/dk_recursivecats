@@ -1,0 +1,42 @@
+{
+  "name": "proudcommerce/dk_recursivecats",
+  "version": "1.1.0",
+  "description": "Recursive Cats",
+  "type": "oxideshop-module",
+  "license": [
+    "GPL-3.0-only"
+  ],
+  "authors": [
+    {
+      "name": "Christian Neumann",
+      "homepage": "https://www.datenkarussell.de/",
+      "email": "cneumann@datenkarussell.de",
+      "role": "Developer"
+    },
+    {
+      "name": "ProudCommerce",
+      "homepage": "https://www.proudcommerce.com/",
+      "email": "welcome@proudcommerce.com",
+      "role": "Developer"
+    },
+    {
+      "name": "Florian Palme",
+      "homepage": "https://www.florian-palme.de/",
+      "email": "info@florian-palme.de",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">= 7.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "ProudCommerce\\OXID\\DK\\RecursiveCats\\": "../../../source/modules/dk/recursivecats"
+    }
+  },
+  "extra": {
+    "oxideshop": {
+      "target-directory": "dk/recursivecats"
+    }
+  }
+}
